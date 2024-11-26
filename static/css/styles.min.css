@@ -10756,7 +10756,7 @@ a {
 
 .hero-banner {
     position: relative;
-    background: url(static/hero-banner.png) left center no-repeat;
+    background: url(./hero-banner.png) left center no-repeat;
     background-size: cover;
     height: 400px;
     z-index: 1
