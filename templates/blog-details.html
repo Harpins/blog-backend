@@ -41,7 +41,8 @@
               <a href="#">
                 <span class="align-middle mr-2">
                   <i class="ti-heart" style="color:red"></i>
-                </span>{{ post.likes_amount }}
+                </span>
+                {{ post.likes_amount }}
               </a>
               <a class="justify-content-sm-center ml-sm-auto mt-sm-0 mt-2" href="#">
                 <span class="align-middle mr-2">
@@ -76,7 +77,9 @@
                   <div class="user justify-content-between d-flex">
                     <div class="desc">
                       <h5>
-                        <a href="#">{{ comment.author }}</a>
+                        <a href="#">
+                          {{ comment.author }}
+                        </a>
                       </h5>
                       <p class="date">
                         {{ comment.published_at }}
